@@ -1,0 +1,25 @@
+name: tests
+
+# Runs on pushes made by a person, not on the daily data commits (commits made with the built-in token do not trigger workflows).
+on:
+  push:
+    branches: [main]
+    paths: ["src/**", "tests/**", "config.json", "requirements.txt", "requirements-dev.txt", ".github/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: python -m unittest discover -s tests -v
