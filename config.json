@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "SPX": {"cboe": "_SPX", "min_contracts": 1000},
+    "NDX": {"cboe": "_NDX", "min_contracts": 500},
+    "SPY": {"cboe": "SPY",  "min_contracts": 500},
+    "QQQ": {"cboe": "QQQ",  "min_contracts": 500}
+  },
+  "strike_window": [-0.035, 0.10],
+  "profile_points": 80,
+  "panel_profile_points": 40,
+  "default_em_iv": 0.16
+}
