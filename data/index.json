@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "updated_utc": "2026-10-13T22:35:52Z",
+ "layout": {
+  "profile": "<date>/<SYMBOL>.json.gz",
+  "latest": "latest/<SYMBOL>.json",
+  "history": "history/<SYMBOL>_daily.csv"
+ },
+ "symbols": {
+  "NDX": {
+   "dates": [
+    "2026-10-13"
+   ],
+   "latest": "2026-10-13"
+  },
+  "QQQ": {
+   "dates": [
+    "2026-10-13"
+   ],
+   "latest": "2026-10-13"
+  },
+  "SPX": {
+   "dates": [
+    "2026-10-13"
+   ],
+   "latest": "2026-10-13"
+  },
+  "SPY": {
+   "dates": [
+    "2026-10-13"
+   ],
+   "latest": "2026-10-13"
+  }
+ }
+}

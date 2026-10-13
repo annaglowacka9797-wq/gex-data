@@ -1,0 +1,2 @@
+trade_date,asof,spot,net_gex,net_dex,call_res,put_sup,hvl,hvl_sweep,rr25_30d,atm_iv_30d,oi_total,contracts,open,high,low,close,source
+2026-10-13,2026-10-13T22:35:17,7805.45,61785907552,1709809283294,7900.0,7500.0,7780.0,7754.09,32.29,0.123,23067434,21464,7795.27,7814.1499,7786.1099,7805.4502,Cboe
