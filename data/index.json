@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_utc": "2026-11-06T23:17:31Z",
+ "updated_utc": "2026-11-06T23:47:13Z",
  "layout": {
   "profile": "<date>/<SYMBOL>.json.gz",
   "latest": "latest/<SYMBOL>.json",
